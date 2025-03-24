@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#ffffff">
+    <title>Task Calendar</title>
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Task Calendar</h1>
+            <div class="month-navigation">
+                <button id="prevMonth">&lt;</button>
+                <h2 id="currentMonth">March 2024</h2>
+                <button id="nextMonth">&gt;</button>
+            </div>
+        </div>
+        <div class="calendar">
+            <div class="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div id="calendarDays" class="days">
+                <!-- Days will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+    <script src="calendar.js"></script>
+</body>
+</html> 
